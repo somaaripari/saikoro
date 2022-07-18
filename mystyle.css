@@ -1,0 +1,74 @@
+/* mystyle.css */
+*{
+	margin: 1vw;
+	padding: 1vw;
+}
+body{
+	margin: 5vw;
+	background: rgb(200, 255, 241);
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+div{
+	margin: 5vw;
+}
+
+#train {
+	width: 15vw;
+	height: 15vw;
+	position: relative;
+	cursor: pointer;
+}
+
+.btn,
+a.btn,
+button.btn {
+	/*font-size: 1.6rem;*/
+	font-size: 5vw;
+	font-weight: 700;
+	line-height: 1.5;
+	position: relative;
+	display: inline-block;
+	padding: 1.5rem 4rem;
+	margin-left: 6vw;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	color: #212529;
+	border-radius: 0.5rem;
+}
+.btn--orange,
+a.btn--orange {
+	color: #fff;
+	background-color: #ff59b4;
+}
+/*.btn--orange:hover,
+a.btn--orange:hover {
+	color: #fff;
+	background: #ff59b4;
+}*/
+
+a.btn--radius {
+	border-radius: 100vh;
+}
+
+
