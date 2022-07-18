@@ -5,7 +5,7 @@
 }
 body{
 	margin: 5vw;
-	background: rgb(200, 255, 241);
+	background: #fff8e1;
 }
 
 *,
@@ -58,13 +58,13 @@ button.btn {
 }
 .btn--orange,
 a.btn--orange {
-	color: #fff;
-	background-color: #ff59b4;
+	color: #ffffff;
+	background-color: #5a3000;
 }
 /*.btn--orange:hover,
 a.btn--orange:hover {
-	color: #fff;
-	background: #ff59b4;
+	color: #000000;
+	background: #5a3000;
 }*/
 
 a.btn--radius {
